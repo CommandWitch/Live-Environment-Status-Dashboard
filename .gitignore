@@ -1,0 +1,49 @@
+
+
+#Ignore vscode AI rules
+.github\instructions\codacy.instructions.md
+
+
+# ==============================================
+# Python / VS Code Project .gitignore
+# ==============================================
+
+# --- Python artifacts ---
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyd
+venv/
+.env
+.venv/
+
+# --- SQLite & databases ---
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.db3
+
+# --- Local notes & text files ---
+*.txt
+!README*.txt
+!LICENSE*.txt
+
+# --- System clutter ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- VS Code (keep config if you want) ---
+# Uncomment below to share launch/settings
+# .vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# --- Logs & temp outputs ---
+*.log
+output/
+temp/
+
